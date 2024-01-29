@@ -1,0 +1,6 @@
+[29-Jan-24 20:17:15 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[29-Jan-24 20:17:15 - INFO] - apscheduler.scheduler - Added job "remove_expired_users" to job store "default"
+[29-Jan-24 20:17:15 - INFO] - apscheduler.scheduler - Scheduler started
+[29-Jan-24 20:17:36 - INFO] - bot - Bot Running..! Made by @im_piro
+[29-Jan-24 21:17:15 - INFO] - apscheduler.executors.default - Running job "remove_expired_users (trigger: interval[1:00:00], next run at: 2024-01-29 22:17:15 IST)" (scheduled at 2024-01-29 21:17:15.757444+05:30)
+[29-Jan-24 21:17:16 - INFO] - apscheduler.executors.default - Job "remove_expired_users (trigger: interval[1:00:00], next run at: 2024-01-29 22:17:15 IST)" executed successfully

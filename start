@@ -1,0 +1,6 @@
+echo "started"
+rm -rf app
+git clone https://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@github.com/animeze/file-sharing/ app
+cd app
+pip install --quiet -r requirements.txt
+python3 -m main.py
