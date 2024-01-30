@@ -7,19 +7,19 @@ from dotenv import load_dotenv
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6835914082:AAEn88rjW_BZ3UbTuNO31gfuaD7TV0bif24")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6962670584:AAGeeZna7P6Q_W-Gy2cpYTUYgytWZBiG9Fc")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "20393598"))
+APP_ID = int(os.environ.get("APP_ID", "29459252"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "abd49541281761582a2995749fa4b0cf")
+API_HASH = os.environ.get("API_HASH", "cf2d0d06c394f6a6a1978f5be2d50078")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002063133850"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002131405074"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6610176934"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5277905507"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -29,7 +29,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://rohitplayer87089:rohit870
 DB_NAME = os.environ.get("DATABASE_NAME", "@FilesStoringBot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001606909341"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002001392051"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
