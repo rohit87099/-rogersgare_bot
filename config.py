@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6744570758:AAEKlYipGDT9BVcLNq7t8QsxXSEd2InnU-c")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6722106503:AAFpbnWxC1QzU_Sw_ayFMnHM6T6FJbBKJBI")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "29459252"))
@@ -16,7 +16,7 @@ APP_ID = int(os.environ.get("APP_ID", "29459252"))
 API_HASH = os.environ.get("API_HASH", "cf2d0d06c394f6a6a1978f5be2d50078")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002048981288"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001878191604"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5277905507"))
