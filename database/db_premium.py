@@ -1,4 +1,5 @@
-# Don't remove This Line From Here. Tg: @im_piro | @PiroHackz
+
+
 
 import time
 import pymongo, os
@@ -34,4 +35,4 @@ async def is_premium_user(user_id):
     user = collection.find_one({"user_id": user_id})
     return user is not None
 
-# Don't remove This Line From Here. Tg: @im_piro | @PiroHackz
+
