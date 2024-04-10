@@ -59,11 +59,11 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning(f"Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nBot Stopped. @im_piro for support")
+            self.LOGGER(__name__).info("\nBot Stopped. @justnothingat for support")
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..! Made by @im_piro")
+        self.LOGGER(__name__).info(f"Bot Running..! Made by @justnothingat")
 
         self.username = usr_bot_me.username
         #web-response
@@ -74,4 +74,4 @@ class Bot(Client):
 
     async def stop(self, *args):
         await super().stop()
-        self.LOGGER(__name__).info("Bot stopped. Made By @im_piro")
+        self.LOGGER(__name__).info("Bot stopped. Made By @justnothingat")
