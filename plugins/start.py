@@ -32,7 +32,7 @@ async def start_command(client: Client, message: Message):
         if string.startswith("premium"):
             if not await is_premium_user(message.from_user.id):
                 if not await is_premium_user(message.from_user.id):
-                    await message.reply_text("Buy premium to access this content\nTo Buy Contact @iamjustfyn")
+                    await message.reply_text("Buy premium to access this content\nTo Buy Contact @rohit_1888")
                     return
         argument = string.split("-")
         if len(argument) == 3:
